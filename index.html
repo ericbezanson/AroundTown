@@ -4,14 +4,14 @@
     <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/leaflet.css" rel="stylesheet" />
-    <script src="js/vendor/angular.min.js"></script>
-    <script src="js/vendor/leaflet.js"></script>
-    <script src="js/vendor/angular-leaflet-directive.min.js"></script>
-    <script src="js/vendor/helpers.js"></script>
-    <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
+    <script src="js/vendor/angular.min.js"></script> <!--Provide Angular JS -->
+    <script src="js/vendor/leaflet.js"></script> <!--Provide LeadLet Library -->
+    <script src="js/vendor/angular-leaflet-directive.min.js"></script><!--Provide Leaflet Angular Directive -->
+    <script src="js/vendor/helpers.js"></script> <!--Provide helper script to collect geo markers -->
+    <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script><!--Provide Ang Module to use NgRoute -->
     <title>AroundTown</title>
   </head>
-  <body ng-app="NearMeApp">
+  <body ng-app="AroundTown"> <!--envoke angular -->
     
     <div class="header">
       <div class="container-fluid">
@@ -21,18 +21,18 @@
       </div>
     </div>
 
-    <div ng-view></div>
+    <div ng-view></div> <!--Call selected view -->
 
     <!-- Modules -->
-    <script src="js/app.js"></script>
+    <script src="js/app.js"></script> <!-- Main Js file -->
 
     <!-- Controllers -->
-    <script src="js/controllers/MainController.js"></script>
+    <script src="js/controllers/MainController.js"></script>  <!--Set Controller for main page -->
 
     <!-- Directives -->
-    
-
+    <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script><!--Provide Ang Module to use NgRoute -->
     <!-- Services -->
-    <script src="js/services/places.js"></script>
+
+    <script src="js/services/places.js"></script> <!--Service to send http request to wikipedia to return JSON obj of places -->
   </body>
 </html>

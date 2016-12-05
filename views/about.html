@@ -1,7 +1,12 @@
-
+<!--About Page -->
 <div class="about">
-  <h2> What's AroundTown? A question the requires two answers.</h2>
-  <p><em>1</em> Whats AroundTown? its an app that takes geographical co-ordinants and finds all the interesting things available on wikipedia in that area, places a marker on them and allows you to learn more about the area!<br>
-  <em>2</em> What is NearMe? to find out the answer to this quesiton click below.</p>
-  <a href="#/">FIND OUT</a>
+  <h2> What's AroundTown?.</h2>
+
+<p>AroundTown is a great way to gain more information about whats around you. Wether you are in a new town looking for something to do or in your home town looking for something new.<br>
+<strong>How does it work?</strong></p>
+<ul>
+  <li>1. It uses an anuglar API called <a href="http://leafletjs.com/">LeafLet</a> to produce a map based on latitude/longtiude coordinates passed in through an angular controller</li>
+
+  <li>2. It also passes those latitude/longtiude coordinates into <a href="https://www.mediawiki.org/wiki/Extension:GeoData">The Wikipedia Geodata API</a> returning a JSON object containing an array of Wikipedia articles near the given coordinates, in this case the latitude and longitude lat: 44.6488, lng: -63.5752 for Halifax, NS.</li>
+<ul>
 </div>

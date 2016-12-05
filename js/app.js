@@ -1,4 +1,4 @@
-var app = angular.module("NearMeApp", ['leaflet-directive', 'ngRoute']);
+var app = angular.module("AroundTown", ['leaflet-directive', 'ngRoute']);
 
 app.config(function($routeProvider){
   $routeProvider 
@@ -15,3 +15,6 @@ app.config(function($routeProvider){
   });
   
 });
+
+// creates the module and gets the required dependancies "leaflet-directive" and "ngRoute".
+// configures routing setting the home page to the main controller and view and the about page to the about controller and view.

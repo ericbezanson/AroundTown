@@ -48,6 +48,5 @@ html, body, #map_canvas {
   left: 0;
 }
 .about {
-  padding-top: 50px;
-  text-align: center;
+  padding: 50px;
 }
