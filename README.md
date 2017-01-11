@@ -11,3 +11,5 @@
 
 <p>1. It uses an anuglar API called [LeafLet](http://leafletjs.com/) to produce a map based on latitude/longtiude coordinates passed in through an angular controller <p>
 <p>2. It also passes those latitude/longtiude coordinates into The Wikipedia Geodata API returning a JSON object containing an array of Wikipedia articles near the given coordinates, in this case the latitude and longitude lat: 44.6488, lng: -63.5752 for Halifax, NS.<p>
+
+![alt text](img/screenshot.jpg "App Screenshot")
